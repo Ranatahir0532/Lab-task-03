@@ -9,7 +9,8 @@ main(){
 	printf("before swaping \nnumber1=%d \nnumber2=%d\n",a,b);
 	a=a+b;
 	b=a-b;
-	a=b-a;
+	a=a-b;
 	printf("after swaping \nnumber1=%d \nnumber2=%d",a,b);
 	return 0;
 }
+
